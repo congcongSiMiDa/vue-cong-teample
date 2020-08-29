@@ -1,0 +1,33 @@
+{
+  "name": "vue-cong-teample",
+  "version": "1.0.0",
+  "description": "cong vue teample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congcongSiMiDa/vue-cong-teample.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "cong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/congcongSiMiDa/vue-cong-teample/issues"
+  },
+  "homepage": "https://github.com/congcongSiMiDa/vue-cong-teample#readme",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
