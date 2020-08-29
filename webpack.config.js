@@ -11,6 +11,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.join(__dirname, 'dist')
   },
+  // 配置开发服务器
   plugins: [
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin()
